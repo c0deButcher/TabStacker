@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <style>
+        html{
+            width:470px !important;
+        }
+        body{
+            width:450px;
+            background-color: gainsboro;
+            overflow: scroll;
+        }
+        #tablist li{
+            
+            border-bottom:black;
+            border-bottom-width: 1em;
+            height: max-content;
+            width:100%;
+            font-size: medium;
+            list-style: none;
+            padding:0% 0% 0% 0%;
+            
+        }
+        #tablist li:hover{
+            background-color: cornsilk;
+
+        }
+        #tablist img{
+            height: 16px;
+            width:16px;
+        }
+        #tablist a{
+            color:coral;
+            font-size: large;
+            font-style: normal;
+            text-decoration: none;
+        }
+        
+    </style>
+</head>
+<body>
+    <div >
+        <!-- <h1 style=" justify-content: center;">List of saved Tabs</h1> -->
+        <div >
+            <ul id="tablist" >
+                
+            </ul>
+        </div>
+    </div>
+    
+    
+    <script src="popup.js"></script>
+</body>
+</html>

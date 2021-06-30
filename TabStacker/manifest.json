@@ -1,0 +1,25 @@
+{
+    
+    "manifest_version": 3,
+    "name": "TabStacker",
+    "version": "1.0",
+   
+    
+    "action": {
+        "default_icon": "iconx.png",
+        "default_title": "Saved Tabs",   
+        "default_popup": "popup.html"  
+    },
+    "options_page": "options.html",
+    "options_ui":{
+        "page":"options.html",
+        "open_in_tab":false
+    },
+    
+    "description": "Extension to Manage your tabs efficiently for best performance",
+    "icons": {},
+    "background":{
+        "service_worker":"backgroundWrapper.js"
+    },
+    "permissions": ["tabs","storage","windows"]
+}
